@@ -37,7 +37,7 @@ mongoose.connect(process.env.MongoUrl!, () => {
   );
 });
 
-const server = app.listen(process.env.PORT, function () {
+const server = app.listen(process.env.PORT || 3000, function () {
   console.log("port lisenting on " + process.env.PORT);
 });
 
