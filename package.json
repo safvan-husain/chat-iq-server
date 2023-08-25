@@ -9,6 +9,10 @@
     "start": "node build/index.js",
     "postinstall": "npm run build"
   },
+  "engines": {
+    "node": "18.15.0"
+  }
+  ,
   "author": "",
   "license": "ISC",
   "devDependencies": {
