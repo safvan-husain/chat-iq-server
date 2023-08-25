@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
-    "build": "npx tsc --watch",
+    "build": "npx tsc",
     "start": "node build/index.js",
     "postinstall": "npm run build"
   },
